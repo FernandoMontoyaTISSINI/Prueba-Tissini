@@ -1,11 +1,12 @@
-import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../styles/themes/light-theme';
+import '../styles/global.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  
 return(
 <>
 
