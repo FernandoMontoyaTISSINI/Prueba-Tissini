@@ -1,5 +1,6 @@
 export interface MessageI {
-    _id: number;
-    firstname: string;
-    lastname: string;
+    numDestino: string;
+    date: string;
+    mensaje: string;
     }
+    +13474483190

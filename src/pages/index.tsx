@@ -4,7 +4,6 @@ import MainLayout from '../components/layout/MainLayout';
 import LeadsMain from '../components/leads/LeadsMain';
 import Head from 'next/head'
 
-
 const Home: NextPage = () => {
 return (
 <MainLayout>

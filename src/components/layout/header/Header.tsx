@@ -40,7 +40,7 @@ function Header() {
   return (
     <Container>
       <Toolbar>
-        <Link href="/home" passHref>
+        <Link href="/" passHref>
           <LogoContainer>
             <Button variant="text">
               <TissiniIcon />
@@ -48,7 +48,7 @@ function Header() {
           </LogoContainer>
         </Link>
 
-        <Link href="/home" passHref>
+        <Link href="/" passHref>
 
           <Box component="form" sx={{
             '& > :not(style)': { ml: 2, background: '#fff' },

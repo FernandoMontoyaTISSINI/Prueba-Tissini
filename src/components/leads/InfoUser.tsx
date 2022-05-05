@@ -18,6 +18,7 @@ function Info() {
 
     return (
         <Box mt={10}>
+            <h1>Información principal</h1>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                     <p>Fecha de creación</p> 
@@ -31,7 +32,9 @@ function Info() {
                 <p>Número de entidad</p>
                 <p>101661</p>
                 </Grid>
+                
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p> Nombres </p>
@@ -46,6 +49,7 @@ function Info() {
                 <p>PERSONAL</p>
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Asesor </p>
@@ -60,6 +64,7 @@ function Info() {
                     
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Referida por</p> 
@@ -74,6 +79,7 @@ function Info() {
                     
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Correo electrónico</p>
@@ -88,6 +94,7 @@ function Info() {
                     
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Zona horaria</p>
@@ -98,6 +105,7 @@ function Info() {
                 <p>Mexico</p>
                 </Grid>
             </Grid>
+            <hr/>
             <h2>Metas de la emprendedora</h2>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
@@ -113,6 +121,7 @@ function Info() {
                 <p>0.00</p>
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Hace tres meses</p>
@@ -132,6 +141,7 @@ function Info() {
                 <p><strong>vwffgpHuOzzG9lEL</strong></p> 
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                     <FormGroup>
@@ -155,6 +165,7 @@ function Info() {
                 <p>Nombre del primer hijo</p>
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Fecha de nacimiento del primer hijo</p>
@@ -167,6 +178,7 @@ function Info() {
                 <p>Fecha de nacimiento del segundo hijo</p>
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>¿En qué trabajas?</p>
@@ -188,6 +200,7 @@ function Info() {
                     
                 </Grid>
             </Grid>
+            <hr/>
             <Grid container spacing={2} columns={18}>
                 <Grid item xs={6}>
                 <p>Facebook</p>

@@ -31,6 +31,11 @@ a {
   padding: 0 30px;
 }
 
+.leads-row>.MuiGrid-item:first-child>p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .leads-row>.MuiGrid-item:nth-child(2)>div {
   display: flex;
   gap: 1em
@@ -39,8 +44,19 @@ a {
 .leads-row>.MuiGrid-item:nth-child(2)>div>button>svg {
   margin-right: 0.5em;
 }
-
-.colorbutton{
- color: #ffff;
- margin-left: 1px;
+.cardspace{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+.colorcard{
+  background-color: rgb(246, 247, 252);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
 }

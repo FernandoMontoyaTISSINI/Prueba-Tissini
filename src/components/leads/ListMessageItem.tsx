@@ -19,17 +19,24 @@ color: theme.palette.text.secondary,
 function ListMessageItem({ message }: ListMessageProps) {
 
 return (
-<Grid container spacing={2} className="message-row">
-  <Grid item xs={8}>
-     {message._id} {message.firstname} {message.lastname}
+<Grid container spacing={2} className="message-row colorcard" mr={20} marginTop={5}>
+  <Grid item xs={3}>
+    <p><strong>Número de destino:</strong></p>
+    {message.numDestino}
+
+     {/* {message._id} {message.firstname} {message.lastname} */}
   </Grid>
-  <Grid item xs={4}>
-    <div>
-    <Button variant="outlined">
-     <FontAwesomeIcon icon={faEllipsisV} />Acciones</Button>
-    <Button variant="contained">Crear Orden</Button> 
-    </div>
-    </Grid>
+  <Grid item xs={3}>
+    
+    <p><strong>Fecha y hora:</strong></p>
+    {message.date}
+
+   
+  </Grid>
+  <Grid item xs={6}>
+  <p><strong>Mensaje:</strong></p>
+  {message.mensaje}
+  </Grid>
 </Grid>
 );
 }

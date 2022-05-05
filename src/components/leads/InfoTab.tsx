@@ -11,6 +11,8 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import Grid from '@mui/material/Grid';
 import MessageMain from '../leads/MessageMain'
+
+
 interface TabPanelProps {
     children?: React.ReactNode;
     index: number;
@@ -52,7 +54,7 @@ export default function BasicTabs() {
     };
 
     return (
-        <Box sx={{ width: '100%' }}>
+        <Box sx={{ width: '100%' }} >
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab label="Direcciones" {...a11yProps(0)} />
@@ -70,14 +72,14 @@ export default function BasicTabs() {
                     </FormGroup>
                     <Grid container spacing={2} columns={12}>
                         <Grid item xs={6}>
-                            <Box>
+                            <Box className=" colorcard">
                             <p><strong>Dirección Principal</strong></p> 
                             <p>Katy Fwy Harris County TX 7895</p>
                             <p><u>Editar dirección</u> </p>
                             </Box>
                         </Grid>
                         <Grid item xs={6}>
-                            <Box>
+                            <Box className=" colorcard">
                             <p><strong>Dirección 2</strong> </p>
                             <p>1015 BALSAM DR Hastings MI 49058</p>
                             <p><u>Editar dirección</u> </p>
@@ -85,14 +87,14 @@ export default function BasicTabs() {
                         </Grid>
 
                         <Grid item xs={6}>
-                            <Box>
+                            <Box className=" colorcard">
                             <p><strong>Dirección 3</strong> </p>
                             <p>Main St Summit County UT 84060</p>
                             <p><u>Editar dirección</u> </p>
                             </Box>
                         </Grid>
                         <Grid item xs={6}>
-                            <Box>
+                            <Box className=" colorcard">
                             <p><strong>Dirección 4</strong> </p>
                             <p>Astor Pl New York County NY 10003</p>
                             <p><u>Editar dirección</u> </p>
@@ -106,11 +108,12 @@ export default function BasicTabs() {
                     <Button variant="outlined" startIcon={<AddIcon />}>
                         <p>Agregar llamada</p>
                     </Button>
-                    <Box>
+                    <Box className={"colorcard"} mt={10}>
                         
                     <p><strong> Asunto:</strong> Asunto</p>
+                    <hr />
                         
-                        <Grid container spacing={2} columns={20}>
+                        <Grid container spacing={2} columns={20} >
                             <Grid item xs={4}>
                             <p><strong>Número de contacto:</strong></p>
                             <p>3474483190</p>
@@ -132,9 +135,10 @@ export default function BasicTabs() {
                             </Grid>
                         </Grid>
                     </Box>
-                    <Box>
+                    <Box className={"colorcard"}>
                         
                             <p><strong> Asunto:</strong> Aedfsdfdsf</p>
+                            <hr />
                         
                         <Grid container spacing={2} columns={20}>
                             <Grid item xs={4}>

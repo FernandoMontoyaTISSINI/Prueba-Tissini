@@ -7,30 +7,41 @@ function Message() {
 
 let message:Array<MessageI> = [
   {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alen ",
-    lastname: "Rojas Perez",
-    },
-    {
-    _id:57457,
-    firstname: "Alba ",
-    lastname: "Mercado Lucero",
-    }
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Descarga TISSINI APP Aqui: http://onelink.to/tissiniapp",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Descarga TISSINI APP Aqui: http://onelink.to/tissiniapp",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Acceso Directo a tu oficina virtual: https://tissini.app/vwffgpHuOzzG9lEL Informacion solo para ti como Emprendedora TISSINI.",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "otro sms",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Descarga TISSINI APP Aqui: http://onelink.to/tissiniapp",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Descarga TISSINI APP Aqui: http://onelink.to/tissiniapp",
+  },
+  {
+    numDestino: "+13474483190",
+    date: "04/05/2022 11:38",
+    mensaje: "Acceso Directo a tu oficina virtual: https://tissini.app/vwffgpHuOzzG9lEL Informacion solo para ti como Emprendedora TISSINI.",
+  }
+    
   ];
 
 

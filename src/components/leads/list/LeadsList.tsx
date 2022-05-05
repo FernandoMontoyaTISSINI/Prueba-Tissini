@@ -2,35 +2,10 @@ import LeadsListItem from './LeadsListItem';
 import { Alert } from '@mui/material';
 import { Card } from '@mui/material';
 import {LeadI} from '../../../core/interfaces/lead.interface';
+import LeadsApi from '../../../core/api/mock/LeadsApi';
 function LeadsList() {
 
-let leadsList:Array<LeadI> = [
-  {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alejandra",
-    lastname: "Palacios Hernandez",
-    },
-    {
-    _id:57457,
-    firstname: "Alen ",
-    lastname: "Rojas Perez",
-    },
-    {
-    _id:57457,
-    firstname: "Alba ",
-    lastname: "Mercado Lucero",
-    }
-  ];
+let leadsList:Array<LeadI> = LeadsApi.getAll();
 
 
   const dataLength = (leadsList) ? leadsList.length : 0;
